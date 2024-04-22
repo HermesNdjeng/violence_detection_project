@@ -10,7 +10,7 @@ Use `model_definition.ipynb` to train a violence detection model on your dataset
 Use `appli.py` to wrap the inference logic in a Flask server to serve the model as a REST webservice:
 
 * Execute the command `python appli.py` to run the Flask app.
-* Go to the browser and hit the URL `0.0.0.0:5000` to get a message "Hello World!" displayed.
+* Go to the browser and hit the URL `0.0.0.0:5000`.
 * Next, run the below command in terminal to query the Flask server to get a reply for the model file provided in this repo:
 ```
 curl -X POST \
@@ -23,7 +23,7 @@ Replace `/path/to/video/file.mp4` with the actual path to the video file you wan
 
 Run `docker build -t violence-detection-app.` to build the Docker image using the `Dockerfile`. (Pay attention to the period in the `docker build` command)
 
-Run `docker run -p 5000:5000 violence-detection-app` to run the Docker container that got generated using the `violence-detection-app` Docker image. (This assumes that the port in `appli.py` is set to 5000)
+Run `docker run -p 5000:5000 violence-detection-app` to run the Docker container that got generated using the `violence-detection-app` Docker image. 
 
 Use the below command in terminal to query the Flask server to get a reply for the model file provided in this repo:
 ```
