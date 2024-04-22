@@ -1,4 +1,3 @@
-Yes, you're correct. GitHub README files use Markdown formatting. Here is the Markdown code for your README file:
 ```
 # Serve a Violence Detection Model as a Webservice
 =====================================================
@@ -35,4 +34,3 @@ curl -X POST \
 ```
 Replace `/path/to/video/file.mp4` with the actual path to the video file you want to upload and process.
 ```
-Just copy and paste this code into your GitHub README file, and you're good to go!
