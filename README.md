@@ -1,7 +1,7 @@
 # Serve a Violence Detection Model as a Webservice
 =====================================================
 
-Serving a simple violence detection model as a webservice using Flask and Docker.
+Serving a violence detection model as a webservice using Flask and Docker.
 
 ## Getting Started
 
