@@ -1,4 +1,3 @@
-```
 # Serve a Violence Detection Model as a Webservice
 =====================================================
 
@@ -33,4 +32,3 @@ curl -X POST \
   -F "file=@/path/to/video/file.mp4"
 ```
 Replace `/path/to/video/file.mp4` with the actual path to the video file you want to upload and process.
-```
