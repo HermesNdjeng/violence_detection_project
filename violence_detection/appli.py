@@ -8,7 +8,7 @@ from flask import Flask, request, render_template, redirect, url_for
 from werkzeug.utils import secure_filename
 import os
 #from tqdm import tqdm
-import premodel_core_function
+import violence_detection.premodel_core_function as premodel_core_function
 
 app = Flask(__name__)
 from tensorflow.keras.models import load_model
