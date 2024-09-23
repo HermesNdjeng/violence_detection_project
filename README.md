@@ -5,7 +5,9 @@ Serving a violence detection model as a webservice using Flask and Docker.
 
 ## Getting Started
 
-Use `model_definition.ipynb` to train a violence detection model on your dataset and generate a model file (`violence_detection_model.h5`).
+Install first all the dependencies of our project by running `pip install -r requirements.txt`
+
+Use `model_definition.ipynb` to train a violence detection model on your dataset and generate a model file (`model.h5`).
 
 Use `appli.py` to wrap the inference logic in a Flask server to serve the model as a REST webservice:
 
